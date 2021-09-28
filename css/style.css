@@ -1,0 +1,382 @@
+*{
+margin: 0;
+padding: 0;
+}
+.logo{
+    
+}
+.logo img{
+ 
+}
+.pad{
+     padding: 0;
+}
+.div{
+    display: flex;
+    justify-content: space-between;
+}
+.div img {
+    margin-left:100px ;
+}
+.div h6{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #42200B;
+}
+header{
+    background-image: url(../images/banner.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+.banner-content h3{
+     font-size: 20px;
+     border: 5px solid;
+     width: 60%;
+     text-align: center;
+     border-style: dashed;
+     padding: 10px;
+     font-weight: 400;
+     color: #72462a;
+     font-family: 'Bebas Neue', cursive;
+}
+.banner-content h1{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 120px;
+    text-shadow:4px 4px rgb(228, 205, 205);
+    color: #42200B;
+}
+.banner-content h2{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 60px;
+    text-shadow:4px 4px rgb(228, 205, 205);
+    color: #42200B;
+}
+.navbar-brand img{
+     display: none;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #42200B;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin-left: 10px;
+} 
+.navbar-light .navbar-nav .nav-link:hover{
+    color: rgb(232, 21, 21);
+}
+.banner-img{
+    position: relative;
+}
+.banner-img img{
+    
+}
+.price-tag{
+    position: absolute;
+    top: 65%;
+    left: 55%;
+    transform: translateY(-55%,-65%);
+}
+.price-tag img{
+    
+}
+.left-img{
+    background-image: url(../images/burger-2.png);
+    min-height: 62vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.top-img{
+    background-image: url(../images/burger-3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 30vh;
+    border-radius: 10px;
+}
+.low-img{
+    background-image: url(../images/burger-4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 30vh;
+    border-radius: 10px;
+}
+.left-img h2{
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    padding: 5px 20px;
+}
+.left-img h1{
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    padding: 5px 20px;
+    font-size: 40px;
+    line-height: 30px ;
+    font-size: 50px;
+    
+}
+.top-img h2{
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    padding: 5px 10px;
+}
+.top-img h1{
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    padding: 5px 10px;
+    line-height: 30px ;
+    font-size: 50px;
+}
+.low-img h2{
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    padding: 5px 10px;
+    
+}
+.low-img h1{
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    line-height: 20px;
+    font-size: 40px;
+    padding: 5px 10px;
+    line-height: 10px ;
+    
+}
+.menu-section{
+    
+}
+.menu-section h4{
+    font-size: 24px;
+    background: #FFC135;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    font-weight: 700;
+    color: #42200B;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    
+}
+.menu-section h1{
+    font-size: 40px;
+    font-family: 'Alfa Slab One', cursive;
+    color: #42200B;
+    padding: 10px 0;
+}
+.menu-section p{
+    color: #72462a;
+    font-size: 18px;
+}
+.mini img{
+    width: 81%;
+}
+.items{
+    
+}
+.items h3{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    color: #42200B;
+}
+.items p{
+     font-size: 16px;
+}
+.btn-order{
+     border: none;
+     background: transparent;
+     padding: 10px 20px;
+     background: #DF1C1C;
+     font-size: 18px;
+     font-family: 'Alfa Slab One', cursive;
+     color: white;
+     border-radius: 5px;
+     transition: .4s all ease-in-out;
+     margin-top: 20px;
+}
+.btn-order:hover{
+    color: #FFC135;
+    background: #42200B;
+}
+.event{
+    background: white;
+    box-shadow: 1px 5px 5px 5px whitesmoke;
+    padding: 10px;
+    /* margin-bottom: 100px; */
+}
+.event-info{
+    
+}
+.event-info h4{
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    color: #72462a;
+}
+.event-info h1{
+    font-family: 'Alfa Slab One', cursive;
+    color: #42200B;
+    margin-top: 20px;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+.event-info p{
+    letter-spacing: 1px;
+    color: grey;
+    line-height: 40px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.contact{
+    background-image: url(../images/black\ bg.png);
+    min-height: 110vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.book{
+    
+}
+.book h4{
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    color: #72462a;
+    font-size: 28px;
+}
+.book h1{
+    font-family: 'Alfa Slab One', cursive;
+    color: #42200B;
+    margin-top: 20px;
+    font-size: 48px;
+    letter-spacing: 2px;
+}
+form{
+    margin-top: 80px;
+}
+input {
+    width: inherit;
+    background: transparent;
+    border: none;
+    border: 1px solid rgb(192, 192, 192);
+    padding: 17px 100px;
+    margin: 15px 18px;
+    border-radius: 5px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 18px;
+}
+input[type="submit"]{
+    width: inherit;
+    border: none;
+    background: transparent;
+    padding: 17px 100px;
+    background: #DF1C1C;
+    font-size: 18px;
+    font-family: 'Alfa Slab One', cursive;
+    color: white;
+    border-radius: 5px;
+    transition: .4s all ease-in-out;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+input[type="submit"]:hover{
+    color: #FFC135;
+    background: #42200B;
+}
+input:focus-visible{
+    outline: none;
+    box-shadow: none;
+}
+footer{
+    margin-bottom: 100px;
+}
+.f-bg{
+    background-image: url(../images/footer-banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 60vh;
+    box-shadow: 1px 5px 5px 5px grey;
+    padding: 10px;
+}
+.left-info{
+    
+}
+.left-info .f-img img{
+
+}
+.left-info p{
+     color: whitesmoke;
+     font-family: 'Montserrat', sans-serif;
+     font-size: 15px;
+     margin-top: 100px;
+     line-height: 40px;
+}
+.left-info h6{
+     color: whitesmoke;
+     font-family: 'Montserrat', sans-serif;
+     font-size: 15px;
+     margin-top: 100px;
+     line-height: 40px;
+}
+.left-info span{
+    display: inline-block;
+    color: #FFC135;
+}
+.right-info{
+    color: whitesmoke;
+}
+.right-info ul{
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 200px;
+
+}
+.right-info ul li{
+   
+}
+.right-info ul li i{
+    font-size: 30px;
+    transition: .2s all ease-in-out;
+}
+.right-info ul li i:hover{
+    color: #FFC135;
+}
+.right-info-top{
+    display: flex;
+    margin-bottom: 40px;
+    align-items: center;
+    margin-top: 100px;
+}
+.right-info-low{
+    display: flex;
+    
+    align-items: center;
+}
+.right-info-top h5{
+    
+}
+.right-info-top i{
+    font-size: 50px;
+    margin-right: 20px;
+}
+.right-info-low i{
+    font-size: 50px;
+    margin-right: 20px;
+}
